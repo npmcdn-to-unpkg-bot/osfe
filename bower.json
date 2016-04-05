@@ -2,7 +2,8 @@
   "name": "osfe-bower",
   "version": "0.1.0",
   "description": "general assets for front end dev.",
-  "main": "osfe-bower",
+  "main": ["angular.min.js"
+  ],
   "moduleType": [],
   "authors": [
     "jmf"
@@ -24,15 +25,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "angular": "^1.5.3",
-    "bootstrap3-typeahead": "git://github.com/bassjobsen/Bootstrap-3-Typeahead.git#master",
-    "bootstrap": "^3.3.6",
-    "Ionicons": "ionicons#^2.0.1",
-    "jquery": "^2.2.2",
-    "satellizer": "^0.14.0",
-	"animate" : "https://github.com/daneden/animate.css/blob/master/animate.min.css"
-	"file-saver.js": "^1.20150507.2"
+  "dependencies": {    
   }
 
 }
